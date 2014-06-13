@@ -14,7 +14,6 @@ var proxyServer = http.createServer(function (req, res)                         
         case 'trcraftingbuddyapi.darkhounds.net':   node.web(req, res);     break;
         default:                                    apache.web(req, res);   break;
     }
-    console.log(host);
 }).listen(80);
 
 
