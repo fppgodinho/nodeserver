@@ -1,0 +1,25 @@
+{
+  "name": "nodeserver",
+  "version": "0.0.0",
+  "description": "A node server entry-point to act as a proxy for other HTTP servers like Apache or other node Applications",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fppgodinho/nodeserver.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Cain Vampyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fppgodinho/nodeserver/issues"
+  },
+  "homepage": "https://github.com/fppgodinho/nodeserver",
+  "dependencies": {
+    "http-proxy": "^1.1.4"
+  }
+}
